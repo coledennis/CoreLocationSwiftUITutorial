@@ -11,6 +11,7 @@
 		B495E53728DAC1C800D370BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495E53628DAC1C800D370BB /* ContentView.swift */; };
 		B495E53928DAC1C900D370BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B495E53828DAC1C900D370BB /* Assets.xcassets */; };
 		B495E53C28DAC1C900D370BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B495E53B28DAC1C900D370BB /* Preview Assets.xcassets */; };
+		B495E54328DB38DC00D370BB /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495E54228DB38DC00D370BB /* LocationDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B495E53628DAC1C800D370BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B495E53828DAC1C900D370BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B495E53B28DAC1C900D370BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B495E54228DB38DC00D370BB /* LocationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B495E53428DAC1C800D370BB /* CoreLocationSwiftUITutorialApp.swift */,
 				B495E53628DAC1C800D370BB /* ContentView.swift */,
+				B495E54228DB38DC00D370BB /* LocationDataManager.swift */,
 				B495E53828DAC1C900D370BB /* Assets.xcassets */,
 				B495E53A28DAC1C900D370BB /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B495E53728DAC1C800D370BB /* ContentView.swift in Sources */,
+				B495E54328DB38DC00D370BB /* LocationDataManager.swift in Sources */,
 				B495E53528DAC1C800D370BB /* CoreLocationSwiftUITutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
