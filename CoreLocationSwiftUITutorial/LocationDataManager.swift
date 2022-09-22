@@ -8,7 +8,7 @@
 import Foundation
 import CoreLocation
 
-class LocationDataManager : NSObject, CLLocationManagerDelegate {
+class LocationDataManager : NSObject, ObservableObject, CLLocationManagerDelegate {
     var locationManager = CLLocationManager()
     
     override init() {
@@ -36,5 +36,14 @@ class LocationDataManager : NSObject, CLLocationManagerDelegate {
         }
     }
     
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        // Insert code to handle location updates
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print("error: \(error.localizedDescription)")
+    }
+    
     
 }
+
